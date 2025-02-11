@@ -1,7 +1,47 @@
 # Python-MCQ-with-Password---Assignment
 
+```This project is a simple Java-based MCQ exam simulation with a password authentication system. 
+The program ensures that the user enters the correct password before starting the exam. 
+If the user enters the wrong password three times, they are locked out. 
+Once authenticated, the program presents multiple-choice questions and evaluates the user's responses.
+
+Features
+   Password Authentication: The user must enter the correct password to start the exam.
+   Limited Attempts: The user gets three attempts to enter the correct password.
+   MCQ Exam: The system presents multiple-choice questions one by one.
+   Validation: If the user selects the correct answer, they proceed to the next question; otherwise, they are disqualified.
+
+Example Flow
+Password Entry
+   User sets the password: p4n@in
+   User enters incorrect passwords: p4n, p4n@, p4n@34
+   If all three attempts fail, access is denied.
+   If the correct password is entered, the MCQ exam begins.
+
+MCQ Exam
+
+Question 1: Who invented Java Programming?
+
+Guido van Rossum
+James Gosling
+Dennis Ritchie
+Bjarne Stroustrup
+User selects option 2 (Correct answer: James Gosling).
+
+If correct, move to the next question; if incorrect, they must retry next year.
+
+Question 2: Which component is used to compile, debug, and execute Java programs?
+
+JRE
+JIT
+JDK
+JVM
+User selects option 2 (Incorrect answer).
+
+If the answer is correct, the next question appears; otherwise, the exam ends.
+
 ###Question
-```Set your password :
+   Set your password :
    p4n@in
    Enter your Password : 
    p4n
@@ -33,7 +73,7 @@
    3. ) JDK
    4. ) JVM
    
-   Select Answer 2 ... con..```
+   Select Answer 2 ... con..
 
 ###Solution
 
@@ -79,6 +119,6 @@ if Typed_Answered == "2":
     Typed_Answered = input("select your answer (1/2/3/4):")
 
     if Typed_Answered == "2":
-        print("correct Answer...Con...")
+        print("correct Answer...Con...")```
     else:
         print("Wrong Answer, Try next year")```
